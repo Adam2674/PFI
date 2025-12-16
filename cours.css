@@ -1,0 +1,34 @@
+:root {
+--duration: 0.75s;
+--detailsPadding: 25px;
+interpolate-size: allow-keywords;
+}
+
+
+details {
+    margin-bottom: 12px;
+    border: 1px white;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+summary {
+    cursor: pointer;
+    background-color: lightgray;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.course {
+    display: flex;
+    gap: 12px;
+    padding: 6px 12px;
+}
+
+.course span {
+    font-family: monospace;
+    font-weight: bold;
+    color:blue;
+}

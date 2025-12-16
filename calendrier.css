@@ -1,0 +1,53 @@
+
+.calendarContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.month {
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 12px;
+    width: 280px;
+    background: blue;
+}
+
+.month h2 {
+    text-align: center;
+}
+
+.daysHeader {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.daysGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.day:hover {
+    background-color:red;
+    color: blue;
+}
+
+.title{
+        text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.title:hover{
+    flex: text;
+}
+
